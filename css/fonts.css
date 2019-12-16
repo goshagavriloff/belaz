@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?vqmg4f');
+  src:  url('../fonts/icomoon.eot?vqmg4f#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?vqmg4f') format('truetype'),
+    url('../fonts/icomoon.woff?vqmg4f') format('woff'),
+    url('../fonts/icomoon.svg?vqmg4f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-clock-o:before {
+  content: "\f017";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-truck:before {
+  content: "\f0d1";
+}
+.icon-rotate-left:before {
+  content: "\f0e2";
+}
+.icon-undo:before {
+  content: "\f0e2";
+}
+.icon-calculator:before {
+  content: "\f1ec";
+}
+.icon-cart-plus:before {
+  content: "\f217";
+}
+.icon-calendar-plus-o:before {
+  content: "\f271";
+}
